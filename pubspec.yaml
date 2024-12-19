@@ -1,0 +1,22 @@
+name: daylio_to_moodiary
+description: A command-line tool to migrate data from SQLite to Isar database
+version: 1.0.0
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  isar: 4.0.0-dev.14
+  collection: 1.19.0
+  uuid: 4.5.1
+  sqlite3: ^2.2.0
+  path: ^1.8.3
+  args: ^2.4.2
+
+dev_dependencies:
+  build_runner: ^2.4.13
+  lints: ^3.0.0
+  test: ^1.24.0
+
+executables:
+  daylio_to_moodiary:
